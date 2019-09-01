@@ -137,7 +137,6 @@ class Home extends Component {
   }
 
   formatEvents (data) {
-    console.log('array', data)
     var new_array = []
     for (let i = 0; i < data.length; i++) {
       let new_data = {
